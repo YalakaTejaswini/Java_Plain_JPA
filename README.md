@@ -279,3 +279,84 @@ Think of it like this:
 
 More accurately, Hibernate is an ORM framework and a JPA provider.
 
+
+What is JPA?
+Why do we use JPA?
+What is ORM?
+What is the difference between JDBC and JPA?
+Is JPA a framework or an API/specification?
+What is Hibernate?
+What is the difference between JPA and Hibernate?
+What is a JPA provider?
+What is EntityManager?
+What is EntityManagerFactory?
+What is the difference between EntityManager and EntityManagerFactory?
+What is persistence.xml?
+What is a persistence unit?
+What is @Entity?
+Why do we use @Table?
+What is @Id?
+What is @GeneratedValue?
+What are different GenerationType strategies?
+What is the default table name if @Table is not specified?
+Why should an entity have a no-argument constructor?
+Can an entity class be final?
+Can entity fields be private?
+What is EntityManager?
+How do you create an EntityManager?
+What methods does EntityManager provide?
+What is persist()?
+What is find()?
+What is merge()?
+What is remove()?
+Difference between persist() and merge()?
+Difference between find() and getReference()?
+What happens if find() doesn't find the record?
+What is a transaction?
+Why do we need transactions?
+Why do we use begin()?
+Why do we use commit()?
+What happens if an exception occurs?
+What is rollback()?
+Which operations require a transaction?
+What is relationship mapping in JPA?
+What is @OneToOne?
+What is @OneToMany?
+What is @ManyToOne?
+What is @ManyToMany?
+Difference between @OneToMany and @ManyToOne?
+What is mappedBy?
+What is @JoinColumn?
+Which side is the owning side?
+What is bidirectional relationship?
+What is JPQL?
+Difference between JPQL and SQL?
+Why does JPQL use entity names instead of table names?
+What is a JPQL query?
+What is createQuery()?
+What is a named query?
+Can JPQL perform joins?
+Can JPQL use GROUP BY?
+Can JPQL use HAVING?
+Can JPQL use subqueries?
+
+10. Advanced questions
+
+For a fresher, these are possible but usually lower priority:
+
+What is first-level cache?
+What is second-level cache?
+What is lazy loading?
+What is eager loading?
+What is the N+1 problem?
+What is cascading?
+What is CascadeType.ALL?
+What is orphan removal?
+What is optimistic locking?
+What is pessimistic locking?
+What is dirty checking?
+What is persistence context?
+What is detached entity?
+What is flush()?
+Difference between flush() and commit()?
+
